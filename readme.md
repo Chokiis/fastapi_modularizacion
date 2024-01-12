@@ -1,4 +1,4 @@
-# Curso de FastAPI: Base de Datos, Modularización y Deploy a Producción.
+# Curso de FastAPI: Base de Dato y Modularización.
 
 ### ¿Qué se verá en la sesión?
 - Conexión a Base de Datos.
