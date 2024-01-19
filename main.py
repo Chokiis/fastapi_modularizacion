@@ -47,6 +47,6 @@ Base.metadata.create_all(bind=engine)
 
 @app.get('/', tags=['Home'])
 def message():
-    return HTMLResponse('<h1>Hello World 2</h1>')
+    return HTMLResponse('<h1>Hello World</h1>')
     # return {'Hello' : 'World'} 
 
