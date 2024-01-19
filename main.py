@@ -17,36 +17,36 @@ app.include_router(movie_router)
 
 Base.metadata.create_all(bind=engine)
 
-movies = [
-    {
-        'id': 1,
-        'title': 'Avatar',
-        'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
-        'year': '2009',
-        'rating': 7.8,
-        'category': 'Suspenso'
-    },
-    {
-        'id': 2,
-        'title': 'Avatar 2',
-        'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
-        'year': 2022,
-        'rating': 7.8,
-        'category': 'Acción'
-    },
-    {
-        'id': 3,
-        'title': 'Avatar 3',
-        'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
-        'year': 2022,
-        'rating': 7.8,
-        'category': 'Suspenso'
-    },
-]
+# movies = [
+#     {
+#         'id': 1,
+#         'title': 'Avatar',
+#         'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
+#         'year': '2009',
+#         'rating': 7.8,
+#         'category': 'Suspenso'
+#     },
+#     {
+#         'id': 2,
+#         'title': 'Avatar 2',
+#         'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
+#         'year': 2022,
+#         'rating': 7.8,
+#         'category': 'Acción'
+#     },
+#     {
+#         'id': 3,
+#         'title': 'Avatar 3',
+#         'overview': "En un exuberante planteta llamado Pandora viven los Na'vi",
+#         'year': 2022,
+#         'rating': 7.8,
+#         'category': 'Suspenso'
+#     },
+# ]
 
 
 @app.get('/', tags=['Home'])
 def message():
-    return HTMLResponse('<h1>Hello World</h1>')
+    return HTMLResponse('<h1>Hello World 2</h1>')
     # return {'Hello' : 'World'} 
 
